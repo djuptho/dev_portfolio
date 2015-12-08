@@ -1,0 +1,125 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js.js"></script>
+</head>
+<body>
+
+<div id="topBox">
+	<div id="topDiv">
+		<img src="arrow.png" id="arrow">
+		<img src="dots.png" id="dots">
+	</div>
+	<a href="cover.png"><img src="cover.png" id="cover"></a>
+	<span id="title">Oskari Merikannon kauneimmat <br/>[Best of Oskar Merikanto]</span>
+	<button id="save">save</button>
+	<span id="artist">various artists</span>
+	<div id="buttonContainer"/>
+		<button id="page1"></button>
+		<button id="page2"></button>
+	</div>
+</div>
+
+<div id="playButton">
+	<button id="shufflePlay"><img src="play.png"><span>shuffle play</span></button>
+	<button id="shufflePause" style="display:none;"><img src="pauseBtn.png"><span>shuffle play</span></button>
+</div>
+
+<div id="bottomBox">
+	<div id="song">
+		<span id="bottomTitle">Merikanto : Kesäillan valssi Op 1. No...</span>
+		<span id="smallTitle">Izumi Tateno</span>
+		<div id="hitbox"></div>
+	</div>	
+	<div id="song">
+		<span id="bottomTitle">Merikanto : Romanssi (Romance)</span>
+		<span id="smallTitle">Erkki Rautio and Izumi Tateno</span>
+		<div id="hitbox"></div>
+	</div>
+	<div id="song">
+		<span id="bottomTitle">Merikanto : Kesäillan valssi Op 1. No...</span>
+		<span id="smallTitle">Izumi Tateno</span>
+		<div id="hitbox"></div>
+	</div>
+	<div id="song">
+		<span id="bottomTitle" class="greenText">Merikanto : Valse Lente</span>
+		<span id="smallTitle">Kaija Saarikettu, Raija Kerppo</span>
+		<div id="hitbox"></div>
+	</div>
+	<div id="song">
+		<span id="bottomTitle">Merikanto : Mä oksalla ylimmällä, Op...</span>
+		<span id="smallTitle">Izumi Tateno</span>
+		<div id="hitbox"></div>
+	</div>
+	<div id="song">
+		<span id="bottomTitle">Merikanto : Valse Lente</span>
+		<span id="smallTitle">Kaija Saarikettu, Raija Kerppo</span>
+		<div id="hitbox"></div>
+	</div>
+	<div id="song">
+		<span id="bottomTitle">Merikanto : Mä oksalla ylimmällä, Op...</span>
+		<span id="smallTitle">Izumi Tateno</span>
+		<div id="hitbox"></div>
+	</div>
+	<div id="song">
+		<span id="bottomTitle">Merikanto : Romanssi (Romance)</span>
+		<span id="smallTitle">Erkki Rautio and Izumi Tateno</span>
+		<div id="hitbox"></div>
+	</div>
+	<div id="song">
+		<span id="bottomTitle">Merikanto : Kesäillan valssi Op 1. No...</span>
+		<span id="smallTitle">Izumi Tateno</span>
+		<div id="hitbox"></div>
+	</div>
+	<div id="song">
+		<span id="bottomTitle">Merikanto : Valse Lente</span>
+		<span id="smallTitle">Kaija Saarikettu, Raija Kerppo</span>
+		<div id="hitbox"></div>
+	</div>
+	<div id="song">
+		<span id="bottomTitle">Merikanto : Mä oksalla ylimmällä, Op...</span>
+		<span id="smallTitle">Izumi Tateno</span>
+		<div id="hitbox"></div>
+	</div>
+	<div id="song">
+		<span id="bottomTitle">Merikanto : Mä oksalla ylimmällä, Op...</span>
+		<span id="smallTitle">Izumi Tateno</span>
+		<div id="hitbox"></div>
+	</div>
+</div>
+
+<div id="nowPlaying">
+	<img src="cover.png" id="smallCover"/>
+	<div id="songContent">
+		<span id="nowPlaying_title">Merikanto: Valse Lente</span>
+		<span id="nowPlaying_artist">Kaija Saarikettu</span>
+	</div>
+	<img src="pause.png" class="pause" id="pause" style="display:none;">
+	<img src="play_bottom.png" class="play" id="play">
+</div>
+
+<div id="overlay" style="display:none;">
+	<div id="songContent_Overlay">
+		<img src="cover.png" id="cover_Overlay">
+		<span id="nowPlaying_title">Merikanto: Valse Lente</span>
+		<span id="nowPlaying_artist">Kaija Saarikettu &bull; Oskari Merikannon kau... </span>
+	</div>
+	<div id="featureLinks">
+		<span><img src="save.png">Save</span>
+		<span><img src="addtoplay.png">Add to Playlist</span>
+		<span><img src="queue.png">Add to Queue</span>
+		<span><img src="share.png">Share</span>
+		<span><img src="radio.png">Start Radio</span>
+		<span><img src="gotoartist.png">Go to Artist</span>
+	</div>
+<span id="cancel">Cancel</span>
+</div>
+
+</body>
+</html>

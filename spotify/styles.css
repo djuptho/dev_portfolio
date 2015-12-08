@@ -1,0 +1,261 @@
+body {
+	max-width:500px;
+	min-width:290px;
+	font-family: 'Open Sans', sans-serif;
+	margin:0;
+	padding:0;
+}
+
+#topBox {
+	background:background: #3a3b46; /* Old browsers */
+	background: -moz-linear-gradient(top,  #3a3b46 0%, #151112 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3a3b46), color-stop(100%,#151112)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3a3b46 0%,#151112 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3a3b46 0%,#151112 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3a3b46 0%,#151112 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #3a3b46 0%,#151112 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3b46', endColorstr='#151112',GradientType=0 ); /* IE6-9 */
+	padding: 5% 0 5% 0;
+	border-bottom:2px solid #2e2f33;
+}
+
+#topDiv {
+	display:block;
+	height:50px;
+}
+
+img#arrow {
+	float:left;
+	padding:0 0 0 2%;
+	width:25px;
+}
+
+img#dots {
+	float:right;
+	padding:0 5% 0 0;
+	width:35px;
+}
+
+img#cover {
+	margin:0 auto 5%;
+	display:block;
+	width:60%;
+}
+
+span#title {
+	color:#FFF;
+	text-align:center;
+	display:block;
+	margin: 0 auto 5% auto;
+	width:90%;
+}
+
+button#save {
+	font-size:.95em;
+	text-transform:uppercase;
+	color:#FFF;
+	border-radius:20px;
+	border: 1px solid #646061;
+	background:none;
+	height:30px;
+	width:100px;
+	margin:0 auto 2.5% auto;
+	display:block;
+}
+
+span#artist {
+	text-transform:uppercase;
+	color:#c1c1c6;
+	text-align:center;
+	display:block;
+	font-weight:400;
+}
+
+#buttonContainer {
+	display:block;
+	width:100%;
+	margin: 5% auto 5%;
+	text-align:center;
+}
+
+button#page1, button#page2{
+	border-radius:50%;
+	height:20px;
+	width:20px;
+	border:none;
+}
+
+button#page1 {
+	background:#FFF;
+}
+
+button#page2{
+	background:#5A5B62;
+}
+
+#playButton {
+	background:#151112;
+	margin-top:-15px;
+}
+
+button#shufflePlay, button#shufflePause  {
+	text-transform:uppercase;
+	font-weight:400;
+	width:75%;
+	color:#FFF;
+	border-radius:30px;
+	border:none;
+	padding:3% 5%;
+	margin:auto;
+	background:#1db954;
+	display:block;
+	font-size:1em;
+}
+
+#shufflePlay span, #shufflePause span {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+button#shufflePlay img, button#shufflePause img {
+	height:15px;
+	padding:0% 3% 0 0;
+}
+
+#bottomBox {
+	padding:5% 3% 0 3%;
+	background:#121314;
+}
+
+#bottomBox #song {
+	border-bottom:1px solid #2e2f33;
+	color:#FFF;
+	padding:4% 0;
+	background:url(side_pause.png) no-repeat 100% 50%;
+	background-size:35px;
+}
+
+span#bottomTitle {
+	font-size:1.1em;
+	display: block;
+	overflow: hidden;
+	height: 25px;
+	width:85%;
+}
+
+span#smallTitle {
+	color:#c1c1c6;
+	display:block;
+	font-size:.85em;
+}
+
+#bottomBox #hitbox {
+	height: 30px;
+	width: 30px;
+	float: right;
+	position: relative;
+	top: -40px;
+}
+
+#nowPlaying {
+	background:#373233;
+	height:60px;
+	max-width:500px;
+	display:block;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+}
+
+#smallCover {
+	height:100%;
+	float:left;
+}
+
+#songContent {
+	float:left;
+	display:block;
+	padding:7.5px 0 0 2.5%;
+}
+
+span#nowPlaying_title,span#nowPlaying_artist {
+	color:#FFF;
+	display:block;
+}
+
+span#nowPlaying_artist {
+	color:#c1c1c6;
+}
+
+img#pause, img#play {
+	float:right;
+	padding:3% 5% 0 0;
+	height:35px;
+}
+
+#overlay {
+	max-width:500px;
+	min-width:290px;
+	position:absolute;
+	bottom:0;
+	top:0;
+	left:0;
+	right:0;
+	z-index:1000;
+	background:rgba(0,0,0,.93);	
+	color:#FFF;	
+}
+
+#songContent_Overlay {
+	display:block;
+	padding:0 5%;
+	height:90px;
+	border-bottom:1px solid #312f30;	
+	margin:5% 0 0 0;
+}
+
+#songContent_Overlay img {
+	padding:0 5% 0 0;
+}
+
+#songContent_Overlay span#nowPlaying_title {
+	font-size:1.2em;
+	font-weight:400;
+}
+
+#songContent_Overlay span#nowPlaying_artist {
+	font-size:1em;
+	height:25px;
+	overflow:hidden;
+}
+
+img#cover_Overlay {
+	float:left;
+	height:80px;
+}
+
+#featureLinks span {
+	width:85%;
+	margin:0 auto 0 auto;
+	display:block;
+	padding:7.5% 0 7.5% 5%;	
+	font-size:1.15em;
+	font-weight:100;
+	border-bottom:1px solid #2e2f2f;
+}
+
+#featureLinks span img {
+  height: 20px;
+  padding: 0 5% 0 0;
+}
+
+span#cancel {
+	width:100%;
+	display:block;
+	padding:5% 0 5% 0;
+	margin:0 auto 0 auto;
+	font-size:1.15em;
+	text-align:center;
+	font-weight:100;
+}

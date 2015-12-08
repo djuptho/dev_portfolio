@@ -1,0 +1,1 @@
+document.write('<div id="tester" style="display:none;">This is an ad</div>');

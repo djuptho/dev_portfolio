@@ -1,0 +1,50 @@
+<html> 
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500' rel='stylesheet' type='text/css'>
+	<style>body {font:30px 'Ubuntu',sans-serif; background:rgba(80,75,50,.05);} b {font-size:50px;}</style>
+	</head>
+<body>
+	<div>
+		<p>Tilt Left/Right<!--[Gamma]-->:</p>
+		<b id="doTiltLR"></b>
+		<p>Tilt Front/Back<!--[Beta]-->:</p>
+		<b id="doTiltFB"></b>
+		<p>Direction<!--[Alpha]-->:</p>
+		<b id="doDirection"></b>
+	  </div>
+  
+  <script type="text/javascript">
+    init();
+    var count = 0;
+    
+    function init() {
+      if (window.DeviceOrientationEvent) {
+        
+        window.addEventListener('deviceorientation', function(eventData) {
+          
+		  // gamma is the left-to-right tilt in degrees, where right is positive
+          var tiltLR = eventData.gamma;
+          
+          // beta is the front-to-back tilt in degrees, where front is positive
+          var tiltFB = eventData.beta;
+          
+          // alpha is the compass direction the device is facing in degrees
+          var dir = eventData.alpha
+          
+          // call our orientation event handler
+          deviceOrientationHandler(tiltLR, tiltFB, dir);
+          }, false);
+      } 
+    }
+  
+    function deviceOrientationHandler(tiltLR, tiltFB, dir) {
+      document.getElementById("doTiltLR").innerHTML = Math.round(tiltLR);
+      document.getElementById("doTiltFB").innerHTML = Math.round(tiltFB);
+      document.getElementById("doDirection").innerHTML = Math.round(dir);
+     }
+	
+	</script>  
+
+</body>
+</html>
