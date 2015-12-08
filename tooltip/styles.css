@@ -1,0 +1,53 @@
+/* STYLES FOR TOOLTIPS */
+
+#tooltip1, #tooltip2, #tooltip3  {
+	height:300px;
+	width:300px;
+	display:inline-block;
+	margin:0 2% 0 0;
+	border-radius: 50%;
+}
+		
+#tooltip1 {
+	background:url('london_bus.jpg') 100% 100% no-repeat;
+}
+		
+#tooltip2 {
+	background:url('paris_notredame.jpg') 100% 100% no-repeat;
+}
+		
+#tooltip3 {
+	background:url('ny_scrapes.jpg') 100% 100% no-repeat;
+}
+		
+#tooltip1:hover span, #tooltip2:hover span, #tooltip3:hover span {
+	-webkit-transition: color 750ms; /* For Safari 3.1 to 6.0 */
+	transition: color 750ms;
+	color: #FFF;
+	}
+
+.headline {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+		
+.headline:hover {
+	cursor: pointer;
+	-webkit-transition: background .5s; /* For Safari 3.1 to 6.0 */
+	transition: background .5s;
+	background: rgba(0,0,0,.45);
+}	
+	
+span {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	display: block;
+	color: transparent;
+	text-align: center;
+	font-size: 1.75em;
+	text-transform: uppercase;
+	font-family: Trebuchet MS, sans-serif;
+	font-weight:bold;
+}
