@@ -1,0 +1,23 @@
+body {
+	margin:0;
+	padding:0; 
+	height:2000px;
+	background:#ADDADD;
+}
+
+#shareBtn {
+	/* UN-COMMENT TO ENABLE SHOW ON SCROLL 
+	display:none; */
+	position:fixed;
+	bottom:0;
+	background:#efefef;
+	border:1px solid lightgrey;
+	padding:2% 1%;
+	width:100%;
+	margin:0;
+	z-index:1000;
+}
+
+#shareBtn img {
+	width:18.5%;
+}

@@ -1,0 +1,41 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="shareBtn">
+			<span onClick='location.href="https://www.facebook.com/sharer/sharer.php?u=URLHERE"'>
+				<img src="icon1.png">
+			</span>
+			<span onClick='location.href="https://twitter.com/home?status=URLHERE"'>
+				<img src="icon2.png">
+			</span>
+			<span onClick='location.href="https://www.linkedin.com/shareArticle?mini=true&url=URLHERE&title=TITLEHERE"'>
+				<img src="icon3.png">
+			</span>
+			<span onClick='location.href="whatsapp://send?text=BODYTEXT_AND_URL"'>
+				<img src="icon4.png">
+			</span>
+			<span onClick='location.href="mailto:RECIPIENT_ADDRESS&subject=MAILSUBJECTHERE&body=BODYTEXT_AND_URL"'>
+				<img src="icon5.png">
+			</span>		
+	</div>
+</body>
+
+<!-- UN-COMMENT SCRIPT TO ENABLE SCROLL TO SHOW 
+<script>
+	$(window).scroll(function() {
+		if ($(window).scrollTop() > 200) {
+			$("#shareBtn").fadeIn("slow");
+		}
+		else {
+			$("#shareBtn").fadeOut("fast");
+		}
+});
+</script>
+-->
+
+</html>
+
