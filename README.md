@@ -54,7 +54,7 @@ This feature works on smartphones and tells you the direction (tilt) of the devi
 By clicking the button (and allowing the page to use your location) it will tell you your location. By combining this data to a database you could translate the location to a country or city. This can be used for a more personalized user experience.
 
 **Made with**: Javascript, HTML, CSS  
-**Live demo**: http://djuptho.com/dev/device_detection/
+**Live demo**: http://djuptho.com/dev/location_coordinates/
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/location_coordinates.gif?raw=true)    
 
@@ -63,7 +63,7 @@ By clicking the button (and allowing the page to use your location) it will tell
 Sharing web pages in social media is something many sites have implemented for a long time. This special feature works on mobile devices and appears in the lower part of the screen when scrolling down. This could be useful e.g. on a news site.
 
 **Made with**: Javascript, HTML, CSS  
-**Live demo**: http://djuptho.com/dev/location_coordinates/  
+**Live demo**: http://djuptho.com/dev/share/  
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/social_share.gif?raw=true)  
 
