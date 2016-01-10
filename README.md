@@ -13,7 +13,6 @@ git clone https://github.com/djuptho/dev_portfolio.git
 When you have cloned the repository make sure to `git pull` to get the newest updates.
 # Repository contents  
 
-
 #### Adblock Detection
 
 This code detects if the user is using an ad blocking plugin. By combining my code with some custom Javascript for your platform you can track ad block usage and e.g. provide ("force") alternative ads to the users.
@@ -87,6 +86,15 @@ I made this work with CSS3 animations without any Javascript.
 **Live demo**: http://djuptho.com/dev/tooltip/
 
 ![](https://raw.githubusercontent.com/djuptho/dev_portfolio/master/resources/tooltip.gif)
+
+#### Easily order a public transportation ticket
+
+In my region (Helsinki, Finland) it's possible to buy a public transportation ticket through SMS. Bookmark this page on your phone's home screen and easily buy e.g. a train-ticket in just a few clicks. 
+
+**Made with**: Javascript, HTML, CSS  
+**Live demo**: http://djuptho.com/dev/hsl_ticket/
+
+![](https://github.com/djuptho/dev_portfolio/blob/master/resources/redirect_sms.gif?raw=true)
 
 [my]: <http://djuptho.com>
 [The MIT License (MIT)]: <http://choosealicense.com/licenses/mit/>
