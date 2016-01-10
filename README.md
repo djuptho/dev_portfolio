@@ -89,10 +89,12 @@ I made this work with CSS3 animations without any Javascript.
 
 #### Easily order a public transportation ticket
 
-In my region (Helsinki, Finland) it's possible to buy a public transportation ticket through SMS. Bookmark this page on your phone's home screen and easily buy e.g. a train-ticket in just a few clicks. 
+In my region (Helsinki, Finland) it's possible to buy a public transportation ticket through SMS. Bookmark this page on your phone's home screen and easily buy e.g. a train ticket in just a few clicks. 
 
 **Made with**: Javascript, HTML, CSS  
 **Live demo**: http://djuptho.com/dev/hsl_ticket/
+
+*More information on SMS-tickets (HSL):* https://www.hsl.fi/en/tickets-and-fares/sms-ticket
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/redirect_sms.gif?raw=true)
 
