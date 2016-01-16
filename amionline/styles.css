@@ -1,0 +1,21 @@
+body#body {
+	background: rgba(10,185,45,0.55);
+}
+
+#text_container {
+	font-family: Tahoma, sans-serif;
+	color: #FFF;
+	text-align:center;
+	position: relative;
+	top: 100%;
+	-webkit-transform: translateY(50%);
+	-ms-transform: translateY(50%);
+	transform: translateY(50%);
+}
+
+#answer {
+	font-weight: bold;
+	font-size: 8em;
+	padding: 0 0 1% 0;
+	display: block;
+}

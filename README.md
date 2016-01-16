@@ -17,7 +17,7 @@ When you have cloned the repository make sure to `git pull` to get the newest up
 
 This code detects if the user is using an ad blocking plugin. By combining my code with some custom Javascript for your platform you can track ad block usage and e.g. provide ("force") alternative ads to the users.
 
-
+**Platform**: Desktop  
 **Made with**: Javascript, HTML, CSS  
 **Live demo**: http://djuptho.com/dev/adblock/
 
@@ -30,6 +30,7 @@ When using multiple computers screens (e.g. when playing games) it's neat to hav
 
 The background artwork is taken from http://eu.battle.net/wow/en/media/fanart/
 
+**Platform**: Desktop  
 **Made with**: PHP, Javascript, HTML, CSS  
 **Live demo**: http://djuptho.com/dev/clock/  
 
@@ -41,7 +42,7 @@ The background artwork is taken from http://eu.battle.net/wow/en/media/fanart/
 
 This feature works on smartphones and tells you the direction (tilt) of the device. This also works as a spirit level meter. The Javascript is commonly used in rich media mobile advertising.
 
-
+**Platform**: Mobile  
 **Made with**: Javascript, HTML, CSS  
 **Live demo**: http://djuptho.com/dev/device_detection/  
 
@@ -52,6 +53,7 @@ This feature works on smartphones and tells you the direction (tilt) of the devi
 
 By clicking the button (and allowing the page to use your location) it will tell you your location. By combining this data to a database you could translate the location to a country or city. This can be used for a more personalized user experience.
 
+**Platform**: Desktop/Mobile  
 **Made with**: Javascript, HTML, CSS  
 **Live demo**: http://djuptho.com/dev/location_coordinates/
 
@@ -61,6 +63,7 @@ By clicking the button (and allowing the page to use your location) it will tell
 
 Sharing web pages in social media is something many sites have implemented for a long time. This special feature works on mobile devices and appears in the lower part of the screen when scrolling down. This could be useful e.g. on a news site.
 
+**Platform**: Mobile  
 **Made with**: Javascript, HTML, CSS  
 **Live demo**: http://djuptho.com/dev/share/  
 
@@ -72,6 +75,7 @@ I got dared to make a version of Spotify. This simple web application has a few 
    
 *Copyright of application: Spotify*
 
+**Platform**: Mobile  
 **Made with**: Javascript, HTML, CSS  
 **Live demo**: http://djuptho.com/dev/spotify/
 
@@ -82,6 +86,7 @@ I got dared to make a version of Spotify. This simple web application has a few 
 Many sites have round images with links that appear as tooltips when hovering over them.  
 I made this work with CSS3 animations without any Javascript.
 
+**Platform**: Desktop  
 **Made with**: HTML, CSS  
 **Live demo**: http://djuptho.com/dev/tooltip/
 
@@ -89,14 +94,27 @@ I made this work with CSS3 animations without any Javascript.
 
 #### Easily order a public transportation ticket
 
-In my region (Helsinki, Finland) it's possible to buy a public transportation ticket through SMS. Bookmark this page on your phone's home screen and easily buy e.g. a train ticket in just a few clicks. 
+In my region (Helsinki, Finland) it's possible to buy a public transportation ticket through SMS. Bookmark this page on your phone's home screen and easily buy e.g. a train ticket in just a few clicks.  
 
+![](http://djuptho.com/dev/hsl_ticket/apple-icon-72x72.png)
+
+**Platform**: Mobile (Android, iOS)  
 **Made with**: Javascript, HTML, CSS  
 **Live demo**: http://djuptho.com/dev/hsl_ticket/
 
 *More information on SMS-tickets (HSL):* https://www.hsl.fi/en/tickets-and-fares/sms-ticket
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/redirect_sms.gif?raw=true)
+
+#### Am I Online?
+
+When using public wireless internet connections at airports, hotels etc. it's nice to know if the connection is stable and works properly. By using my mobile application, you easily know if you have a connection or not :)
+
+![](http://djuptho.com/dev/amionline/apple-icon-72x72.png)
+
+**Platform**: Mobile  
+**Made with**: Javascript, HTML, CSS, HTML5 Cache Manifest  
+**Live demo**: http://djuptho.com/dev/amionline/
 
 [my]: <http://djuptho.com>
 [The MIT License (MIT)]: <http://choosealicense.com/licenses/mit/>
