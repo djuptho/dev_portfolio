@@ -1,0 +1,47 @@
+#siteContainer {
+	width: 70%;
+	margin: 1% auto 0;
+	font-family: sans-serif;
+}
+
+#timerContainer {
+	color: #FFF;
+	text-align: center;
+	padding: 5%;
+	font-weight: 300;
+}
+
+#timerContainer {
+	background: rgba(0,0,0,1);
+}
+
+#timerContainer .timeStamp {
+	width: 15%;
+	display: inline-block;
+}
+
+.timeStamp span.timeStampNumber {
+	font-size: 4em;
+	font-weight: 900;
+}
+
+@media (max-width: 1390px) {
+
+	#siteContainer {
+		width: 80%;
+		}
+
+}
+
+@media (max-width: 768px) {
+
+	#siteContainer {
+		width: 95%;
+	}
+
+	#timerContainer .timeStamp {
+		width: 30%;
+		display: inline-block;
+	}
+
+}

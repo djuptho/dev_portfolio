@@ -116,5 +116,17 @@ When using public wireless internet connections at airports, hotels etc. it's ni
 **Made with**: Javascript, HTML, CSS, HTML5 Cache Manifest  
 **Live demo**: http://djuptho.com/dev/amionline/
 
+![](https://github.com/djuptho/dev_portfolio/blob/master/resources/online_checker.png)
+
+#### Countdown Timer
+
+A countdown timer can be an effective way to evoke actions e.g. on a marketing landingpage. Configure the desired date in the PHP-file and customize the files in the CSS-file according to your needs.
+
+**Platform**: Desktop/Mobile  
+**Made with**: PHP, HTML, CSS  
+**Live demo**: http://djuptho.com/dev/countdown_timer/
+
+![](https://github.com/djuptho/dev_portfolio/blob/master/resources/timer.png)
+
 [my]: <http://djuptho.com>
 [The MIT License (MIT)]: <http://choosealicense.com/licenses/mit/>
