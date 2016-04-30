@@ -128,5 +128,15 @@ A countdown timer can be an effective way to evoke actions e.g. on a marketing l
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/timer.png)
 
+#### Caps Lock Detection
+
+When a user is logging in to a service it's nice to detect and inform the user if CAPS LOCK is detected. This minimizes confusion from a user point of view.
+
+**Platform**: Desktop  
+**Made with**: Javascript, HTML, CSS  
+**Live demo**: http://djuptho.com/dev/capslock/
+
+![](https://github.com/djuptho/dev_portfolio/blob/master/resources/capslock.gif)
+
 [my]: <http://djuptho.com>
 [The MIT License (MIT)]: <http://choosealicense.com/licenses/mit/>

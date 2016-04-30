@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+	<title>Caps Lock Detection</title>
+	<meta charset="UTF-8">
+	<script src="capslock.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<form>
+	<h4>Hi.</h4>
+	<p>Try typing an e-mail address or password with CAPS activated on your keyboard :)</p>	
+		<input type="email" placeholder="E-mail" onKeyPress="checkCapsLock( event )"/><br/>
+                <input type="password" placeholder="Password" onKeyPress="checkCapsLock( event )"/><br/>
+		<div id="divWarningCapsLock">Caps Lock is on.</div>
+		<input type="submit" id="submit" value="Log in">
+	</form>
+</body>
+</html>

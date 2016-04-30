@@ -1,0 +1,43 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+	font-size: .9em;
+}
+
+h4 {
+	display: block;
+	margin: 0 0 -5px 0;
+}
+
+form {
+	width: 300px;
+	border: 1px solid #c0c0c0;
+	padding: 2%;
+	background: #e6e6e6;
+}
+
+input {
+	padding: 2% 0 2% 2%;
+	width: 290px;
+	margin: 2% 0;
+}
+
+input#submit {
+	width: 100%;
+	border: none;
+	background: #376E37;
+	padding: 4%;
+	color: #FFF;
+	font-size: .9em;
+}
+
+#divWarningCapsLock {
+	display: none;
+	background: #8A4545;
+	color: #FFF;
+	padding: 4% 0;
+	margin: 2% 0 2% 0;
+	text-align: center;
+}
