@@ -120,7 +120,7 @@ When using public wireless internet connections at airports, hotels etc. it's ni
 
 #### Countdown Timer
 
-A countdown timer can be an effective way to evoke actions e.g. on a marketing landingpage. Configure the desired date in the PHP-file and customize the files in the CSS-file according to your needs.
+A countdown timer can be an effective way to evoke actions e.g. on a marketing landingpage. Configure the desired date in the PHP-file and customize the CSS-file according to your needs.
 
 **Platform**: Desktop/Mobile  
 **Made with**: PHP, HTML, CSS  
