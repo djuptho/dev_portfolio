@@ -1,0 +1,28 @@
+<html !DOCTYPE>
+<head>
+	<meta charset="utf-8">
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<style>
+	body { 
+	font-family:'Roboto', sans-serif;
+	margin: 2% auto;
+	width: 50%;
+	}
+	</style>
+</head>
+<body>
+	<div id="container">
+	<h3>Try to copy or save the image</h3>
+	<img width="100%" src="http://lorempixel.com/1280/960/city/">
+	</div>
+	<script>
+	//Disable right-click on images
+	$(document).ready(function() {
+		$("img").on("contextmenu",function(e){
+			return false;
+		}); 
+	});
+	</script>
+</body>
+</html>

@@ -138,5 +138,15 @@ When a user is logging in to a service it's nice to detect and inform the user i
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/capslock.gif)
 
+#### Preventing Image Right-Clicks
+
+Sometimes images on your web page are too precious for you to let go of. By using this short code you can disable right clicks on images on the site. This helps preventing users from saving images.
+
+**Platform**: Desktop  
+**Made with**: Javascript, HTML, CSS  
+**Live demo**: http://djuptho.com/dev/rightclick/
+
+![](https://github.com/djuptho/dev_portfolio/blob/master/resources/rightclick.jpg)
+
 [my]: <http://djuptho.com>
 [The MIT License (MIT)]: <http://choosealicense.com/licenses/mit/>
