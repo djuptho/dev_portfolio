@@ -148,5 +148,15 @@ Sometimes images on your web page are too precious for you to let go of. By usin
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/rightclick.jpg)
 
+#### RWD Checker
+
+RWD Checker is a handy tool for Web Designers and Developers. Use this extension to easily check the usability of your responsive site on different screen sizes. Special thanks to Responsinator.com :)
+
+**Platform**: Google Chrome Extension  
+**Made with**: Javascript, HTML, CSS, JSON  
+**Live demo and download**: https://goo.gl/LiMDDr 
+
+![](https://github.com/djuptho/dev_portfolio/blob/master/resources/rwd_promo.png)
+
 [my]: <http://djuptho.com>
 [The MIT License (MIT)]: <http://choosealicense.com/licenses/mit/>

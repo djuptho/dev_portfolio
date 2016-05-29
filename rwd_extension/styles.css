@@ -1,0 +1,49 @@
+/* Styles for Google Chrome Extension */
+
+#container {
+	width: 175px;
+	padding: 0 10px 2.5px 10px;
+	text-align: center;
+	font-size: .9em;
+}
+
+h4 {
+	border-bottom: 1px dashed #E2E2E2;
+	padding: 0px 0 12.5px 0;
+	color: #444;
+}
+
+p#activated {
+	color: #2EA000;
+	font-weight: bold;
+}
+
+img#checkbox {
+	width: 20%;
+}
+
+#container a#scriptButton {
+	color: #FFF;
+	background: #2EA000;
+	border:none;
+	width: 65%;
+	padding: 5% 2%;
+	text-transform: uppercase;
+	font-size: .85em;
+	display: block;
+	margin: 2% auto;
+	text-decoration: none;
+}
+
+#container a#scriptButton:hover {
+	background: #288205;
+}
+
+#container span {
+	font-size:.75em;
+	color: #c0c0c0;
+	margin: 7.5% auto 0;
+	display: block;
+	width: 80%;
+}
+

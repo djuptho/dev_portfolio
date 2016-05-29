@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "RWD Checker",
+	"short_name": "A handy tool for Web Designers and Developers",
+	"description": "Use this extension to easily check the usability of your responsive site on different screen sizes.",
+	"version": "1.0",
+	
+	"browser_action": {
+	"default_icon": "icon.png",
+	"default_popup": "popup.html"
+	},
+	
+	"permissions": [
+	"activeTab",
+	"tabs"
+	]
+}
