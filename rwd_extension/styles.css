@@ -1,10 +1,10 @@
 /* Styles for Google Chrome Extension */
 
 #container {
-	width: 175px;
+	width: 300px;
 	padding: 0 10px 2.5px 10px;
 	text-align: center;
-	font-size: .9em;
+	font-size: 1.4em;
 }
 
 h4 {
