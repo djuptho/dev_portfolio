@@ -158,5 +158,18 @@ RWD Checker is a handy tool for Web Designers and Developers. Use this extension
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/rwd_promo.png)
 
+#### Lorem Ipsum Extension
+
+This extension helps Developers to find placeholder content for their web development projects. 
+Simply copy and paste the content provided by the plugin and add this to your code. 
+
+All of the content is free-to-use in non-commercial projects. Special thanks to Lorempixel.com :)
+
+**Platform**: Google Chrome Extension  
+**Made with**: Javascript, HTML, CSS, JSON  
+**Live demo and download**: https://goo.gl/nhFrtB
+
+![](https://github.com/djuptho/dev_portfolio/blob/master/resources/lorem_promo.png)
+
 [my]: <http://djuptho.com>
 [The MIT License (MIT)]: <http://choosealicense.com/licenses/mit/>

@@ -1,0 +1,47 @@
+/* Styles for Google Chrome Extension */
+
+#container {
+	width: 300px;
+	padding: 0 10px 2.5px 10px;
+	font-size: 1.4em;
+}
+
+h4 {
+	border-bottom: 1px dashed #E2E2E2;
+	padding: 0px 0 12.5px 0;
+        text-align: center;
+	color: #444;
+}
+
+p#header {
+	color: #2EA000;
+	font-weight: bold;
+}
+
+p#header_span {
+	margin: 5px 0 5px 0;
+	font-size:.75em;
+	color: #c0c0c0;
+}
+
+input.image_code {
+	width: 95%;
+	padding: 2% 0 2% 2%;
+	margin: 2% 0;
+	border: 1px solid #e4e4e4;
+	color: #444;
+}
+
+textarea {
+	width: 95%;
+	height: 80px;
+	max-height: 80px;
+	overflow: hidden;
+	margin: 0;
+	resize: none;
+	border: 1px solid #e4e4e4;
+	padding: 3% 0 3% 2%;
+	line-height: 20px;
+	font-family: sans-serif;
+	color: #444;
+}
