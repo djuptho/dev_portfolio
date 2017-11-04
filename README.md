@@ -180,7 +180,7 @@ Special thanks to Archive.org :)
 
 **Platform**: Google Chrome Extension  
 **Made with**: Javascript, HTML, CSS, JSON  
-**Live demo and download**: 
+**Live demo and download**: https://goo.gl/a5HnNK
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/time_travel_extension.jpg)
 
