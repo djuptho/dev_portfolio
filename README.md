@@ -191,8 +191,8 @@ This can be used in prototypes or other web pages where a light CMS is of benefi
 
 Example data is taken from NHL.com.
 
-**Platform**: Desktop, Mobile
-**Made with**: Javascript, HTML, CSS
+**Platform**: Desktop, Mobile  
+**Made with**: Javascript, HTML, CSS  
 **Live demo**: http://djuptho.com/dev/sheetdb/
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/sheetdb.png)
