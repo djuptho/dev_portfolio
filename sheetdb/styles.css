@@ -1,0 +1,87 @@
+/* Styles.css */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p#copyright {
+	margin: -15px 0 15px 15px;
+}
+
+#container {
+	display: block;
+	width: 75%;
+}
+
+#container #data .newsItem {
+	width: 40%;
+	max-width: 500px; 
+	display: inline-block;
+	padding: 2.5%;
+	border: 1px solid #c0c0c0;
+	margin: 0 1% 2.5% 1%;
+}
+
+#container #data .newsItem a {
+	font-size: 1.5em;
+	color: #000;
+	text-decoration: none;
+}
+
+#container #data .newsItem img {
+	width: 100%;
+	margin: 0 0 2.5% 0;
+}
+
+#container #data .newsItem p {
+	padding: 0 0 20px 0;
+	line-height: 26px;
+	height: 85px;
+	overflow: hidden;
+}
+
+#container #data .newsItem .fader {
+	height: 3em;
+	position: relative;
+	top: -65px;
+	background: -moz-linear-gradient(bottom, rgba(255,255,255,1) 65%, rgba(255,255,255,0) 100%);
+	background: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 65%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(to top, rgba(255,255,255,1) 65%,rgba(255,255,255,0) 100%);
+	margin-bottom: -70px;
+}
+
+#container #data .meta {
+	font-size: .8em;
+}
+
+#container #data span {
+	display: block;
+	font-weight: bold;
+	margin: 1% 0 0;
+}
+
+@media screen and (max-width: 1000px) {
+	#container {
+		width: 100%;
+	}
+	
+	#container #data .newsItem {
+		width: 42.5%;
+	}	
+}
+
+@media screen and (max-width: 600px) {
+	#container #data .newsItem {
+		width: 90%;
+		padding: 5%;
+		margin: 5% auto;
+		display: block;
+	}
+	
+	p#copyright {
+		text-align: center;
+		margin: 10px 0 20px 0;
+	}
+	
+}
+
