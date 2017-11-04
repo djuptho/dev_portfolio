@@ -171,5 +171,18 @@ All of the content is free-to-use in non-commercial projects. Special thanks to 
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/lorem_promo.png)
 
+#### Time Travel Extension
+
+The Time Travel extension is a tool for everyone with an interest in internet history. 
+The extension takes you back in time, displaying copies of the web page since the day the web page was created.
+
+Special thanks to Archive.org :)
+
+**Platform**: Google Chrome Extension  
+**Made with**: Javascript, HTML, CSS, JSON  
+**Live demo and download**: 
+
+![](https://github.com/djuptho/dev_portfolio/blob/master/resources/time_travel_extension.jpg)
+
 [my]: <http://djuptho.com>
 [The MIT License (MIT)]: <http://choosealicense.com/licenses/mit/>
