@@ -138,7 +138,7 @@ When a user is logging in to a service it's nice to detect and inform the user i
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/capslock.gif)
 
-#### Preventing Image Right-Clicks
+#### Preventing image right clicks
 
 Sometimes images on your web page are too precious for you to let go of. By using this short code you can disable right clicks on images on the site. This helps preventing users from saving images.
 
@@ -147,6 +147,16 @@ Sometimes images on your web page are too precious for you to let go of. By usin
 **Live demo**: http://djuptho.com/dev/rightclick/
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/rightclick.jpg)
+
+#### Get and copy your IP address with one click
+
+With this piece of code the user can retrieve his/her IP address easily and copy it with just one click.
+
+**Platform**: Desktop
+**Made with**: PHP, Javascript, CSS
+**Live demo**: http://djuptho.com/dev/copy_ip/
+
+![](https://github.com/djuptho/dev_portfolio/blob/master/resources/copy_ip.gif)
 
 #### RWD Checker
 
