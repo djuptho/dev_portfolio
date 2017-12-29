@@ -44,7 +44,7 @@ This feature works on smartphones and tells you the direction (tilt) of the devi
 
 **Platform**: Mobile  
 **Made with**: Javascript, HTML, CSS  
-**Live demo**: http://djuptho.com/dev/device_detection/  
+**Live demo**: http://djuptho.com/dev/device/device_detection/
 
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/device_detection.png?raw=true)  
