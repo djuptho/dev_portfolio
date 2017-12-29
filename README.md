@@ -152,8 +152,8 @@ Sometimes images on your web page are too precious for you to let go of. By usin
 
 With this piece of code the user can retrieve his/her IP address easily and copy it with just one click.
 
-**Platform**: Desktop
-**Made with**: PHP, Javascript, CSS
+**Platform**: Desktop  
+**Made with**: PHP, Javascript, CSS  
 **Live demo**: http://djuptho.com/dev/copy_ip/
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/copy_ip.gif)
