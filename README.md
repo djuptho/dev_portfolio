@@ -72,7 +72,7 @@ Sharing web pages in social media is something many sites have implemented for a
 #### Spotify Prototype
 
 I got dared to make a version of Spotify. This simple web application has a few features and plays a piece of classical music. Works pretty good on a smartphone.
-   
+
 *Copyright of application: Spotify*
 
 **Platform**: Mobile  
@@ -164,14 +164,14 @@ RWD Checker is a handy tool for Web Designers and Developers. Use this extension
 
 **Platform**: Google Chrome Extension  
 **Made with**: Javascript, HTML, CSS, JSON  
-**Live demo and download**: https://goo.gl/LiMDDr 
+**Live demo and download**: https://goo.gl/LiMDDr
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/rwd_promo.png)
 
 #### Lorem Ipsum Extension
 
-This extension helps Developers to find placeholder content for their web development projects. 
-Simply copy and paste the content provided by the plugin and add this to your code. 
+This extension helps Developers to find placeholder content for their web development projects.
+Simply copy and paste the content provided by the plugin and add this to your code.
 
 All of the content is free-to-use in non-commercial projects. Special thanks to Lorempixel.com :)
 
@@ -183,7 +183,7 @@ All of the content is free-to-use in non-commercial projects. Special thanks to 
 
 #### Time Travel Extension
 
-The Time Travel extension is a tool for everyone with an interest in internet history. 
+The Time Travel extension is a tool for everyone with an interest in internet history.
 The extension takes you back in time, displaying copies of the web page since the day the web page was created.
 
 Special thanks to Archive.org :)
@@ -206,6 +206,16 @@ Example data is taken from NHL.com.
 **Live demo**: http://djuptho.com/dev/sheetdb/
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/sheetdb.png)
+
+#### Page length scroll detector
+
+Time is valuable, as you know. Therefore, many blogs and news sites has an indicator in the header explaining how far the user has scrolled on the page. Here's a simple example made in JavaScript tidied up with a bit of CSS.
+
+**Platform**: Desktop, Mobile  
+**Made with**: Javascript, HTML, CSS  
+**Live demo**: http://djuptho.com/dev/scroll_length/
+
+![](https://github.com/djuptho/dev_portfolio/blob/master/resources/scroll_length_detector.gif)
 
 [my]: <http://djuptho.com>
 [The MIT License (MIT)]: <http://choosealicense.com/licenses/mit/>
