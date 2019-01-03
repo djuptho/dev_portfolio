@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Page scroll length detector</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<!-- Trigger scroll function event on body -->
+<body onscroll="scrollFunction()">
+  <script type="text/javascript">
+  //Create scroll function
+  function scrollFunction() {
+    //Define variables
+    var bodyHeight = document.getElementsByTagName('body')[0].offsetHeight;
+    var scrollPosition = document.getElementsByTagName('body')[0].scrollTop;
+    var rulerWidth = document.getElementById('scrollRuler');
+    var scrollPositionPercentage = (scrollPosition/bodyHeight)*125;
+    //Set percentual width of div
+    rulerWidth.style.width = scrollPositionPercentage+"%";
+  }
+  </script>
+  <div id="scrollRuler">&nbsp;</div>
+</body>
+</html>

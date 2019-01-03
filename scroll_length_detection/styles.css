@@ -1,0 +1,13 @@
+/* Styles.css */
+
+body {
+  margin: 0;
+  /* Long page to force scroll bar */
+  height: 5000px;
+}
+
+div#scrollRuler {
+  border-bottom: 10px solid #8ad56b;
+  position: fixed;
+  height: 0;
+}
