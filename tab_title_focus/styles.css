@@ -1,0 +1,22 @@
+/* Styles.css */
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+iframe {
+	height: 100%;
+	width: 100%;
+	border: 0;
+}
+
+div {
+	font-size: .75em;
+	position: absolute;
+	margin: 20px 0 0 10px;
+}
+
+a {
+	color: #000;
+}
