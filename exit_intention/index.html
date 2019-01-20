@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>Detect user exit intention</title>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+	$( "body" ).mousemove(function( event ) {
+		var yAxis = event.pageY;
+		if ( yAxis < 10 ) {
+			alert('You are leaving the page');
+		}
+  });
+</script>
+<h1>Detect user exit intention</h1>
+</body>
+</html>
