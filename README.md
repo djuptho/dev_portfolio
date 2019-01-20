@@ -222,8 +222,8 @@ Time is valuable, as you know. Therefore, many blogs and news sites has an indic
 With this small Javascript utility you can check if users have the browser window focused. 
 If the window is not focused, a few page titles are changed in the tab of the browser.
 
-**Platform**: Desktop 
-**Made with**: Javascript, HTML, CSS  
+**Platform**: Desktop  
+**Made with**: Javascript, HTML, CSS   
 **Live demo**: http://djuptho.com/dev/tab_focus/
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/tab_focus.gif)
@@ -232,8 +232,8 @@ If the window is not focused, a few page titles are changed in the tab of the br
 
 Detecting exit intent on web pages can be a way for companies to engage users on their sites. This tiny piece of jQuery detects when users are about to leave the page on desktop devices.
 
-**Platform**: Desktop 
-**Made with**: jQuery, HTML 
+**Platform**: Desktop  
+**Made with**: jQuery, HTML  
 **Live demo**: http://djuptho.com/dev/exit_intent/
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/exit_intent.gif)
