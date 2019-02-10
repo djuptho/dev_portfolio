@@ -1,7 +1,7 @@
 # Development Portfolio
 
-This is [my] personal GitHub repository with useful pieces of code and small own projects.  
-Some of the projects are work related, others' are cool features that I come up with and want to try out.
+This is [my] personal GitHub repository with useful pieces of code and hobby projects.  
+Some of the projects are work related, others' are features that I want to try out and document.
 
 All of the content goes under the *[The MIT License (MIT)]*.  
 
@@ -237,6 +237,16 @@ Detecting exit intent on web pages can be a way for companies to engage users on
 **Live demo**: http://djuptho.com/dev/exit_intent/
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/exit_intent.gif)
+
+#### Python Scraper to JSON
+
+This Python script scrapes a selected web page and its content and stores it in a JSON format. The JSON data can be parsed on any web page as presented in this simple example.
+
+**Platform**: Desktop, Mobile   
+**Made with**: Python, jQuery, JSON, HTML , CSS   
+**Live demo**: http://djuptho.com/dev/json/demo/
+
+![](https://github.com/djuptho/dev_portfolio/blob/master/resources/scraper_json.png)
 
 [my]: <http://djuptho.com>
 [The MIT License (MIT)]: <http://choosealicense.com/licenses/mit/>
