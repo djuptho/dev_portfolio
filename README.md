@@ -249,11 +249,11 @@ This Python script scrapes a selected web page and its content and stores it in 
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/scraper_json.png)
 
-#### Python Scraper to JSON
+#### Microsoft Teams channel email integration
 
 With the public Unicafe lunch menu API (University of Helsinki), a daily email message can be compiled, configured and sent with PHP to a Microsoft Teams channel of choice. The JSON data set is parsed, formatted and pushes the lunch menu of the day to an array. 
 
-**Platform**: Microsoft Teams integration 
+**Platform**: Microsoft Teams integration   
 **Made with**: PHP, JSON, Crontab, Bash (sh)  
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/unicafe.png)
