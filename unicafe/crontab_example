@@ -1,0 +1,7 @@
+- To automatically run a script on a Linux server, please use Crontab.
+
+- To edit / add a Crontab: crontab -e
+- To view / list all Crontabs: crontab -l
+
+- The following example runs a bash.sh script every Mon-Fri at 10.30 A.M.:
+30 10 * * 1-5 /full/path/to/script/bash.sh

@@ -1,7 +1,7 @@
 # Development Portfolio
 
 This is [my] personal GitHub repository with useful pieces of code and hobby projects.  
-Some of the projects are work related, others' are features that I want to try out and document.
+Some of the projects are work related, others' are features that I develop and document in GitHub.
 
 All of the content goes under the *[The MIT License (MIT)]*.  
 
@@ -94,7 +94,7 @@ I made this work with CSS3 animations without any Javascript.
 
 #### Easily order a public transportation ticket
 
-In my region (Helsinki, Finland) it's possible to buy a public transportation ticket through SMS. Bookmark this page on your phone's home screen and easily buy e.g. a train ticket in just a few clicks.  
+In my region (Helsinki, Finland) it's possible to buy a public transportation ticket through SMS. Bookmark this page on your phone's home screen and easily buy e.g. a train ticket in just two a few clicks.  
 
 ![](http://djuptho.com/dev/hsl_ticket/apple-icon-72x72.png)
 
@@ -197,7 +197,7 @@ Special thanks to Archive.org :)
 #### Light CMS using Google Sheet API
 
 By using the Google Sheet API one can build a connection between a Google Sheet and a web page through a simple JSON call.
-This can be used in prototypes or other web pages where a light CMS is of benefit.
+This can be used in prototypes or other web pages where a light, easy-to-maintain, CMS is of benefit.
 
 Example data is taken from NHL.com.
 
@@ -209,7 +209,8 @@ Example data is taken from NHL.com.
 
 #### Page length scroll detector
 
-Time is valuable, as you know. Therefore, many blogs and news sites has an indicator in the header explaining how far the user has scrolled on the page. Here's a simple example made in JavaScript tidied up with a bit of CSS.
+Many blogs and news sites has an indicator in the top section of a page explaining how far the user has scrolled. 
+Here's a simple example made in JavaScript tidied up with a bit of CSS.
 
 **Platform**: Desktop, Mobile  
 **Made with**: Javascript, HTML, CSS  
@@ -247,6 +248,15 @@ This Python script scrapes a selected web page and its content and stores it in 
 **Live demo**: http://djuptho.com/dev/json/demo/
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/scraper_json.png)
+
+#### Python Scraper to JSON
+
+With the public Unicafe lunch menu API (University of Helsinki), a daily email message can be compiled, configured and sent with PHP to a Microsoft Teams channel of choice. The JSON data set is parsed, formatted and pushes the lunch menu of the day to an array. 
+
+**Platform**: Microsoft Teams integration 
+**Made with**: PHP, JSON, Crontab, Bash (sh)  
+
+![](https://github.com/djuptho/dev_portfolio/blob/master/resources/unicafe.png)
 
 [my]: <http://djuptho.com>
 [The MIT License (MIT)]: <http://choosealicense.com/licenses/mit/>
