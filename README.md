@@ -209,7 +209,7 @@ Example data is taken from NHL.com.
 
 #### Page length scroll detector
 
-Many blogs and news sites has an indicator in the top section of a page explaining how far the user has scrolled. 
+Many blogs and news sites has an indicator in the top section of a page explaining how far the user has scrolled.
 Here's a simple example made in JavaScript tidied up with a bit of CSS.
 
 **Platform**: Desktop, Mobile  
@@ -220,7 +220,7 @@ Here's a simple example made in JavaScript tidied up with a bit of CSS.
 
 #### Check for tab activity
 
-With this small Javascript utility you can check if users have the browser window focused. 
+With this small Javascript utility you can check if users have the browser window focused.
 If the window is not focused, a few page titles are changed in the tab of the browser.
 
 **Platform**: Desktop  
@@ -251,7 +251,7 @@ This Python script scrapes a selected web page and its content and stores it in 
 
 #### Microsoft Teams channel email integration
 
-With the public Unicafe lunch menu API (University of Helsinki), a daily email message can be compiled, configured and sent with PHP to a Microsoft Teams channel of choice. The JSON data set is parsed, formatted and pushes the lunch menu of the day to an array. 
+With the public Unicafe lunch menu API (University of Helsinki), a daily email message can be compiled, configured and sent with PHP to a Microsoft Teams channel of choice. The JSON data set is parsed, formatted and pushes the lunch menu of the day to an array.
 
 **Platform**: Microsoft Teams integration   
 **Made with**: PHP, JSON, Crontab, Bash (sh)  
