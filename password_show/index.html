@@ -1,0 +1,67 @@
+<html>
+<head>
+	<!-- Meta Data -->
+	<title>Show Password</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Styles -->
+	<style>
+	body {font-family: 'Open Sans', sans-serif; font-size: 0.9em;}
+	span {font-size: 0.75em;}
+	i.fa-eye {color: #555;}
+	span:hover, i.fa-eye:hover, .fakeBox:hover {cursor:pointer;}
+	form {padding: 2%; border: 1px solid #ddd; max-width: 500px;}
+	form input {padding: 0.5%; margin: 0.5%;}
+	h4 {margin: 10px 0;}
+	#form1 i {position: relative; right: 25px;}
+	.show {display:inline;}
+	.fakeBox { height: 15px; width: 15px; border: 1px solid #999; display: inline-block; margin: 10px 10px 0 0; position: relative; top: 4px; }	
+	.boxChecked { background-repeat: no-repeat; background-size: 75%; background-position: center; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 50 50" overflow="visible" stroke="black" stroke-width="5" stroke-linecap="round"><line x2="50" y2="50" /><line x1="50" y2="50" /></svg>');	
+	</style>
+	
+	<h4>Version 1</h4>
+	<form id="form1">		
+		<label>Password</label>		
+		<input class="pw1" type="password"/>
+		<div class="show"><i class="fa fa-eye"></i></div>
+	</form>
+	<h4>Version 2</h4>
+	<form id="form2">
+		<label>Password</label>		
+		<input class="pw2" type="password"/>
+		<div class="show"><span>Show password</span></div>
+	</form>	
+	<h4>Version 3</h4>
+	<form id="form3">	
+		<label>Password</label>		
+		<input class="pw3" type="password"/>
+		<div class="show" id="thirdBox"><br/><div class="fakeBox"></div><span>Show password</span></div>
+	</form>
+	
+	<!-- Script -->			
+	<script type="text/javascript">
+		var times = 0;
+		for (var x = 0; x < document.querySelectorAll("form div.show").length; x++ ) {
+			document.querySelectorAll("form div.show")[x].addEventListener('click', function(){
+				times++;
+				if ( this.id == "thirdBox" && times %2 != 0 ){
+					//Checked
+					document.querySelector("form div.fakeBox").classList = "fakeBox boxChecked";
+				}
+				else if ( this.id == "thirdBox" && times %2 == 0 ) {
+					//Not checked
+					document.querySelector("form div.fakeBox").classList = "fakeBox";
+				}
+				
+				if ( times %2 == 0) {
+					this.previousElementSibling.type ="password";
+				}
+				else {
+					this.previousElementSibling.type ="text";
+				}			
+			});		
+		}
+	</script>	
+<html>

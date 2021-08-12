@@ -269,5 +269,13 @@ Example data is taken from Amazon.de.
 
 ![](https://github.com/djuptho/dev_portfolio/blob/master/resources/sheetdb2_mvp.png)
 
+#### Form Password Show
+
+To improve user experience when logging in, it is adviced that forms have a functionality to display the password when requested. In this demo three layouts are presented with icons and labels to display a users password. The third layout has a custom checkbox implementation using CSS/Javascript.
+
+**Made with**: Javascript, HTML, CSS  
+**Live demo**: http://djuptho.com/dev/password_show/
+![](https://github.com/djuptho/dev_portfolio/blob/master/resources/password_show.png)
+
 [my]: <http://djuptho.com>
 [The MIT License (MIT)]: <http://choosealicense.com/licenses/mit/>
